@@ -13,6 +13,9 @@
 		CDC15CA829B1072D00C56DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CA629B1072D00C56DB0 /* Main.storyboard */; };
 		CDC15CAA29B1072E00C56DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CA929B1072E00C56DB0 /* Assets.xcassets */; };
 		CDC15CAD29B1072E00C56DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CAB29B1072E00C56DB0 /* LaunchScreen.storyboard */; };
+		CDC15CB829B10A6000C56DB0 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CB529B10A6000C56DB0 /* nssl0041.jpg */; };
+		CDC15CB929B10A6000C56DB0 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CB629B10A6000C56DB0 /* nssl0033.jpg */; };
+		CDC15CBA29B10A6000C56DB0 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CB729B10A6000C56DB0 /* nssl0034.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CDC15CA929B1072E00C56DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC15CAC29B1072E00C56DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC15CAE29B1072E00C56DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC15CB529B10A6000C56DB0 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		CDC15CB629B10A6000C56DB0 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		CDC15CB729B10A6000C56DB0 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		CDC15C9F29B1072D00C56DB0 /* StormViewerApp */ = {
 			isa = PBXGroup;
 			children = (
+				CDC15CB429B10A6000C56DB0 /* Content */,
 				CDC15CA029B1072D00C56DB0 /* AppDelegate.swift */,
 				CDC15CA229B1072D00C56DB0 /* SceneDelegate.swift */,
 				CDC15CA429B1072D00C56DB0 /* ViewController.swift */,
@@ -66,6 +73,16 @@
 			);
 			path = StormViewerApp;
 			sourceTree = "<group>";
+		};
+		CDC15CB429B10A6000C56DB0 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDC15CB529B10A6000C56DB0 /* nssl0041.jpg */,
+				CDC15CB629B10A6000C56DB0 /* nssl0033.jpg */,
+				CDC15CB729B10A6000C56DB0 /* nssl0034.jpg */,
+			);
+			path = Content;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,8 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC15CB929B10A6000C56DB0 /* nssl0033.jpg in Resources */,
+				CDC15CB829B10A6000C56DB0 /* nssl0041.jpg in Resources */,
 				CDC15CAD29B1072E00C56DB0 /* LaunchScreen.storyboard in Resources */,
 				CDC15CAA29B1072E00C56DB0 /* Assets.xcassets in Resources */,
+				CDC15CBA29B10A6000C56DB0 /* nssl0034.jpg in Resources */,
 				CDC15CA829B1072D00C56DB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
