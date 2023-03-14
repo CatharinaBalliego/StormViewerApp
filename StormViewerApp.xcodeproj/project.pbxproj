@@ -10,7 +10,6 @@
 		CDC15CA129B1072D00C56DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC15CA029B1072D00C56DB0 /* AppDelegate.swift */; };
 		CDC15CA329B1072D00C56DB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC15CA229B1072D00C56DB0 /* SceneDelegate.swift */; };
 		CDC15CA529B1072D00C56DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC15CA429B1072D00C56DB0 /* ViewController.swift */; };
-		CDC15CA829B1072D00C56DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CA629B1072D00C56DB0 /* Main.storyboard */; };
 		CDC15CAA29B1072E00C56DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CA929B1072E00C56DB0 /* Assets.xcassets */; };
 		CDC15CAD29B1072E00C56DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CAB29B1072E00C56DB0 /* LaunchScreen.storyboard */; };
 		CDC15CB829B10A6000C56DB0 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDC15CB529B10A6000C56DB0 /* nssl0041.jpg */; };
@@ -24,7 +23,6 @@
 		CDC15CA029B1072D00C56DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC15CA229B1072D00C56DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDC15CA429B1072D00C56DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDC15CA729B1072D00C56DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC15CA929B1072E00C56DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC15CAC29B1072E00C56DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC15CAE29B1072E00C56DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				CDC15CA029B1072D00C56DB0 /* AppDelegate.swift */,
 				CDC15CA229B1072D00C56DB0 /* SceneDelegate.swift */,
 				CDC15CA429B1072D00C56DB0 /* ViewController.swift */,
-				CDC15CA629B1072D00C56DB0 /* Main.storyboard */,
 				CDD99A6829B631D800036044 /* DetailViewController.swift */,
 				CDC15CA929B1072E00C56DB0 /* Assets.xcassets */,
 				CDC15CAB29B1072E00C56DB0 /* LaunchScreen.storyboard */,
@@ -150,7 +147,6 @@
 				CDC15CAD29B1072E00C56DB0 /* LaunchScreen.storyboard in Resources */,
 				CDC15CAA29B1072E00C56DB0 /* Assets.xcassets in Resources */,
 				CDC15CBA29B10A6000C56DB0 /* nssl0034.jpg in Resources */,
-				CDC15CA829B1072D00C56DB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDC15CA629B1072D00C56DB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDC15CA729B1072D00C56DB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDC15CAB29B1072E00C56DB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,7 +305,6 @@
 				INFOPLIST_FILE = StormViewerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,7 +331,6 @@
 				INFOPLIST_FILE = StormViewerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
