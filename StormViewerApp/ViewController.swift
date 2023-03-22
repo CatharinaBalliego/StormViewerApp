@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Picture")
-        
+        tableView.translatesAutoresizingMaskIntoConstraints = false
         
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -28,7 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         for item in items {
             if item.hasPrefix("nssl") {
                 pictures.append(item)
-            }
+            }	
         }
         pictures.sort()
         print(pictures)
@@ -51,13 +51,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
     }
-    /*
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
-            vc.selectedImage = pictures[indexPath.row]
-            navigationController?.pushViewController(vc, animated: true)
-        }
-    }*/
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let imc = DetailViewController()
+        imc.selectedImage = pictures[indexPath.row]
+        navigationController?.pushViewController(imc, animated: true)
+    }
     
     //tableview
     
